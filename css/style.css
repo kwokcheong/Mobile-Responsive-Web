@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    height: 1000px;
+    color: black;
+}
+
+header{
+    color: black;
+    text-align: center;
+}
+
+div#logo{
+    height: 200px;
+}
+
+div#hero img{
+    height: 1000px;
+    width: 100%;
+    background-position: cover;
+    margin-right: 90px;
+}
+
+/*NAV BAR CODE*/
+
+ul#navbar{
+    height: 30px;
+    padding: 15px;
+
+}
+
+ul#navbar li{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    display: inline;
+    padding: 25px;
+    font-weight: 530;
+}
+
+ul#navbar li a{
+    display: inline;
+    font-family: Verdana;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+ul#navbar li a:hover{
+    color: orange;
+}
+
+/* END NAV BAR CODE*/
