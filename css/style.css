@@ -29,8 +29,6 @@ ul#navbar{
 }
 
 ul#navbar li{
-    text-decoration: none;
-    color: red;
     font-size: 18px;
     text-align: center;
     display: inline;
@@ -39,7 +37,6 @@ ul#navbar li{
 }
 
 ul#navbar li a{
-    display: inline;
     font-family: Verdana;
     color: black;
     margin-left: 25px;
@@ -52,3 +49,10 @@ ul#navbar li a:hover{
 }
 
 /* END NAV BAR CODE*/
+
+div#flexbox{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: 1mm black solid;
+}
